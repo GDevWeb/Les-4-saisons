@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta description = "Javascript, Js, intersection, observer, développeur web frontend, Dammaretz Gaëtan">
+  <link rel="icon" type="image/svg+xml" href="/logo/Dammaretz Gaëtan.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les 4 Saisons</title>
+</head>
+<body>
+  <div id="app">
+    <div id="wrapper">
+      <header>
+        <h1 id="title">Les 4 saisons</h1>
+        <nav>
+          <ul id="navBar">
+            <li><a href="#spring">Spring</a></li>
+            <li><a href="#summer">Summer</a></li>
+            <li><a href="#fall">Fall</a></li>
+            <li><a href="#winter">Winter</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="spring" data-audio-id="springAudio">
+          <h2 class="seasonName">Le printemps</h2>
+          <img src="/ressources/spring/spring01.jpg" alt="image de la saison du printemps">
+          <audio id="springAudio" src="/ressources/spring/spring_sound.mp3"></audio>
+        </section>
+        <section id="summer" data-audio-id="summerAudio">
+          <h2 class="seasonName">L'été</h2>
+          <img src="/ressources/summer/summer01.jpg" alt="image de la saison de l'été">
+          <audio id="summerAudio" src="/ressources/summer/summer_beach_sound.mp3"></audio>
+        </section>
+        <section id="fall" data-audio-id="fallAudio">
+          <h2 class="seasonName">L'automne</h2>
+          <img src="/ressources/fall/fall01.jpg" alt="image de la saison de l'automne">
+          <audio id="fallAudio" src="/ressources/fall/fall_sound.mp3"></audio>
+        </section>
+        <section id="winter" data-audio-id="winterAudio">
+          <h2 class="seasonName">L'hiver</h2>
+          <img src="/ressources/winter/winter.jpg" alt="image de la saison de l'hiver">
+          <audio id="winterAudio" src="/ressources/winter/sound_christmas.mp3"></audio>
+        </section>
+      </main>
+      <button type="button" id="backToTopBtn">Retour en haut</button>
+      <div id="breadcrumb"></div>
+      <footer>
+        <div id="copyright">
+          <p id="author"><span id="year"></span>&copy;Dammaretz Gaëtan</p>
+          <p>Intégrateur et Développeur web frontend </p>
+          <ul id="links">
+            <li><p>Retrouvez moi sur :</p></li>
+            <li><a href="https://www.linkedin.com/in/gaëtan-dammaretz" target="_blank"><img src="/logo/linkedin.svg" alt="logo linkedin" class="logo_SocialLink"></a></li>
+            <li><a href="https://github.com/Aescanor" target="_blank"><img src="/logo/square-github.svg" alt="logo github" class="logo_SocialLink"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </div>
+</body>
+</html>
