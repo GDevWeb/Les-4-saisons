@@ -73,7 +73,6 @@ window.onscroll = function () {
   }
 };
 
-// Attacher l'événement de clic au bouton
 document.getElementById("backToTopBtn").addEventListener("click", scrollToTop);
 
 if (window.innerWidth <= 768) {
